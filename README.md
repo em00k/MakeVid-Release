@@ -12,15 +12,15 @@ Version history :
 
 v1.7 15/09/24
 
-   ADDED   :   If input video has no audio, dummy file used
+- ADDED   :   If input video has no audio, dummy file used
 
 v1.6 02/09/24
 
-   ADDED   :   Registry usage for settings files and paths
+- ADDED   :   Registry usage for settings files and paths
 
-   ADDED   :   Preview output file (reprocess exported files into an mp4 and play)
+- ADDED   :   Preview output file (reprocess exported files into an mp4 and play)
 
-   ADDED   :   Space in filenames support! 
+- ADDED   :   Space in filenames support! 
 
 MakeVid is a tool that helps you convert videos into .VID files that can play
 on the ZX Spectrum Next using Allen Albright's .playvid dot command. 
