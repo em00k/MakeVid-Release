@@ -5,6 +5,7 @@
 https://github.com/em00k/MakeVid-Release
 
 If you enjoy this software please consider joining my Patreon
+
 https://patreon.com/user?u=27217558 as it really helps!
 
 Version history :
