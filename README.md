@@ -1,12 +1,20 @@
 # MakeVid-Release
  Convert video files to ZX Next VID format
 ---
-### MakeVid 1.6 by em00k 12/09/24
+### MakeVid 1.7 by em00k 12/09/24
 https://github.com/em00k/MakeVid-Release
 
 If you enjoy this software please consider joining my Patreon
- https://patreon.com/user?u=27217558 as it really helps!
+https://patreon.com/user?u=27217558 as it really helps!
 
+Version history :
+
+v1.7 15/09/24
+   ADDED   :   If input video has no audio, dummy file used
+v1.6 02/09/24
+   ADDED   :   Registry usage for settings files and paths
+   ADDED   :   Preview output file (reprocess exported files into an mp4 and play)
+   ADDED   :   Space in filenames support! 
 
 MakeVid is a tool that helps you convert videos into .VID files that can play
 on the ZX Spectrum Next using Allen Albright's .playvid dot command. 
