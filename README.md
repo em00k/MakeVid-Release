@@ -119,6 +119,7 @@ So for 256x192 the VID frame goes:
 
 
 *MakeVid requires ffmpeg to be located in the bin folder distributed with MakeVid.*
+*https://ffmpeg.org/* 
 
 *MakeVid uses RegistryProc by mk-soft for saving & reading registry user preference data
 and can be found in ```HKCU/Software/em00k/makevid```*
