@@ -10,10 +10,15 @@ https://patreon.com/user?u=27217558 as it really helps!
 Version history :
 
 v1.7 15/09/24
+
    ADDED   :   If input video has no audio, dummy file used
+
 v1.6 02/09/24
+
    ADDED   :   Registry usage for settings files and paths
+
    ADDED   :   Preview output file (reprocess exported files into an mp4 and play)
+
    ADDED   :   Space in filenames support! 
 
 MakeVid is a tool that helps you convert videos into .VID files that can play
