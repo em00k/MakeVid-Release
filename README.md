@@ -11,6 +11,8 @@ https://patreon.com/user?u=27217558 as it really helps!
 MakeVid is a tool that helps you convert videos into .VID files that can play
 on the ZX Spectrum Next using Allen Albright's .playvid dot command. 
 
+![Screenshot](imgs/screenshot.png)
+
 MakeVid uses ffmpeg to extract the frames and audio then stitches the frames 
 into the correct format for playvid to use. You have the option of picking
 a section of video to use, a custom palette for each frame - note this requires 
