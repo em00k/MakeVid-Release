@@ -47,7 +47,7 @@ You can tell ffmpeg to only extract a section from the video if you enable "Use 
 ffmpeg parameters" this will enable the text box below which should have the default 
 settings of :
 
-```"-ss 00:00:00 -to 00:00:30"``
+```"-ss 00:00:00 -to 00:00:30"```
 
 these values represent HH:MM:SS - becareful if you end up with a mistake here the video will 
 not convert. 
