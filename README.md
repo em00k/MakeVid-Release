@@ -5,7 +5,7 @@ MakeVid 1.6 by em00k 12/09/24
 https://github.com/em00k/MakeVid-Release
 
 If you enjoy this software please consider joining my Patreon @ 
-patreon.com/user?u=27217558 as it really helps!
+https://patreon.com/user?u=27217558 as it really helps!
 
 
 MakeVid is a tool that helps you convert videos into .VID files that can play
