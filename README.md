@@ -51,7 +51,7 @@ settings of :
 
 ```"-ss 00:00:00 -to 00:00:30"```
 
-these values represent HH:MM:SS - becareful if you end up with a mistake here the video will 
+these values represent ```HH:MM:SS``` - be careful if you end up with a mistake here the video will 
 not convert. 
 
 Cleanup will clean up all the extracted videos and is a default option. This version 
@@ -62,8 +62,8 @@ The button "Output Path" will let you select a new destination path, "Open Folde
 open the folder for the "Input Video" to browse, "Explore File" will open the folder
 with the "Output File" in. 
 
-MakeVid requires ffmpeg to be located in the bin folder distributed with MakeVid. 
+- MakeVid requires ffmpeg to be located in the bin folder distributed with MakeVid. 
 
-MakeVid uses RegistryProc by mk-soft for saving & reading registry user preference data
-and can be found in HKCU/Software/em00k/makevid
+- MakeVid uses RegistryProc by mk-soft for saving & reading registry user preference data
+and can be found in ```HKCU/Software/em00k/makevid```
 
