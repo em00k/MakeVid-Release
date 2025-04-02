@@ -10,6 +10,12 @@ https://patreon.com/user?u=27217558 as it really helps!
 
 Version history :
 
+v1.72 02/04/25
+- FIXED : Would throw an error to a dev location of ffmpeg! Fixed to use .\bin\ffmpeg.exe!
+
+v1.71 16/12/24 
+- FIXED MAYBE   : Long videos over 15mins lost audio sync for 256x192 Recalculated audio frequecy to 23330Hz for the audio conversion. Updated. 
+
 v1.7 15/09/24
 
 - ADDED   :   If input video has no audio, dummy file used
