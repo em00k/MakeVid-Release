@@ -1,0 +1,34 @@
+name: Auto Release ZIP
+
+on:
+  push:
+    tags:
+      - 'v*'   # Trigger on tags like v1.0.0
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create ZIP of repo
+        run: |
+          zip -r "${{ github.event.repository.name }}-${{ github.ref_name }}.zip" . -x '*.git*' -x '*.github/*'
+
+      - name: Publish Release (README as notes)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body_path: README.md   # 👈 This tells it to use README.md for release notes
+          files: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip
+          allow_updates: true     # optional, lets it update an existing release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
