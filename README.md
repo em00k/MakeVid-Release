@@ -10,7 +10,7 @@ https://patreon.com/user?u=27217558 as it really helps!
 
 Version history :
 
-v1.77 04/04/25
+v1.7.7 04/04/25
 - UPDATE : Remove hardcoded path
 - UPDATE : Added x64 and x86 versions
 
